@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Ritheesh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb1"></div>
+        <div class="gradient-orb orb2"></div>
+        <div class="gradient-orb orb3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Ritheesh B</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="certificates.html" class="nav-link">Certificates</a>
+                <a href="achievements.html" class="nav-link active">Achievements</a>
+            </div>
+            <button class="mobile-toggle" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Achievements Section -->
+    <section class="page-section">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Achievements</h1>
+                <p class="page-description">Milestones, awards, and recognitions throughout my journey</p>
+                <div class="title-decoration"></div>
+            </div>
+
+            <!-- Achievement Categories -->
+            <div class="achievement-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="competition">Competitions</button>
+                <button class="category-btn" data-category="project">Projects</button>
+                <button class="category-btn" data-category="other">Others</button>
+            </div>
+
+            <!-- Achievements Timeline -->
+            <div class="timeline">
+
+                <!-- Achievement 1: SAP Hackfest -->
+                <div class="timeline-item" data-category="competition">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">March 2024</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">🏆</div>
+                            <div>
+                                <h3>Qualified for 2nd Round – SAP Hackfest</h3>
+                                <p class="achievement-organizer">Organized by SAP & Partner Institutions</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            Qualified for the second round of SAP Hackfest by presenting a powerful AI-driven
+                            solution under the Digital Frauds theme. Judges appreciated our innovation,
+                            teamwork, and technical strength.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">Hackathon</span>
+                            <span class="achievement-tag">SAP</span>
+                            <span class="achievement-tag">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2: IBM Z Datathon -->
+                <div class="timeline-item" data-category="competition">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2024</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">🎖️</div>
+                            <div>
+                                <h3>IBM Z Datathon – Participation</h3>
+                                <p class="achievement-organizer">IBM x Shooting Stars Foundation</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            Participated in IBM Z Datathon 2024, developing data-based solutions and collaborating
+                            with diverse teams while working on IBM mainframe concepts and analytics.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">Datathon</span>
+                            <span class="achievement-tag">IBM Z</span>
+                            <span class="achievement-tag">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 3: PROTATVA 2025 -->
+                <div class="timeline-item" data-category="competition">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">January 2025</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">🏅</div>
+                            <div>
+                                <h3>PROTATVA-2025 – State Level Project Exhibition</h3>
+                                <p class="achievement-organizer">RVITM, Bengaluru</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            Presented my project at PROTATVA-2025 State Level Inter-Collegiate Exhibition
+                            and received appreciation for implementation quality, innovation, and presentation.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">Project Expo</span>
+                            <span class="achievement-tag">State Level</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 4: BIT College Presentation -->
+                <div class="timeline-item" data-category="competition">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2024</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">📢</div>
+                            <div>
+                                <h3>Project Presentation – BIT College</h3>
+                                <p class="achievement-organizer">Bangalore Institute of Technology</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            Presented my project at BIT College, explaining system architecture, workflow,
+                            and technical implementation. Received positive evaluation from faculty.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">Presentation</span>
+                            <span class="achievement-tag">Technical</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 5: Aquatic Health Monitoring -->
+                <div class="timeline-item" data-category="project">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2024</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">🩺</div>
+                            <div>
+                                <h3>Pneumonia Detection System</h3>
+                                <p class="achievement-organizer">AI & DS Department Project Expo</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            A deep learning model that analyzes chest X-rays and detects pneumonia with high accuracy. It helps doctors make faster and more reliable diagnoses.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">ML</span>
+                            <span class="achievement-tag">Full Stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 6: Traffic Management System -->
+                <div class="timeline-item" data-category="project">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2024</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">👨‍🦯</div>
+                            <div>
+                                <h3>Blind Assistant App</h3>
+                                <p class="achievement-organizer">AI & DS Project Review Panel</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                           An AI-powered mobile app that identifies objects, reads text, and gives voice feedback to assist visually impaired users in daily tasks.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">AI/ML</span>
+                            <span class="achievement-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 7: FaceShield -->
+                <div class="timeline-item" data-category="project">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2023</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">🛡️</div>
+                            <div>
+                                <h3>FaceShield – Anti Photo Morphing</h3>
+                                <p class="achievement-organizer">Hackathon Project</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+                            Created an AI-based security tool that adds imperceptible perturbations to prevent
+                            photo morphing, ensuring safer digital image usage.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">Cybersecurity</span>
+                            <span class="achievement-tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 8: Prescription Analyzer -->
+                <div class="timeline-item" data-category="project">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content achievement-content">
+                        <span class="timeline-date">2023</span>
+                        <div class="achievement-header">
+                            <div class="achievement-medal">✈️</div>
+                            <div>
+                                <h3>SAGAR TRAVELS</h3>
+                                <p class="achievement-organizer">Independent Research Project</p>
+                            </div>
+                        </div>
+                        <p class="achievement-description">
+A travel website that allows users to view tour packages, compare prices, and book trips online. It simplifies travel planning and enhances customer experience.
+                        </p>
+                        <div class="achievement-tags">
+                            <span class="achievement-tag">MongoDB</span>
+                            <span class="achievement-tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="pages.js"></script>
+
+    <script>
+        // Achievement Category Filter
+        document.addEventListener('DOMContentLoaded', () => {
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const timelineItems = document.querySelectorAll('.timeline-item');
+
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const category = btn.dataset.category;
+
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    timelineItems.forEach(item => {
+                        if (category === 'all' || item.dataset.category === category) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'translateY(30px)';
+                            setTimeout(() => item.style.display = 'none', 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
